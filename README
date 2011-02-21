@@ -1,9 +1,11 @@
-# Introduction
+Introduction
+========
 This program tries its best to find the maximum number of requests/second a HTTP server can perform, while keeping the median latency and error percentage below user defined values.
 
 It does so by increasing and decreasing the number of concurrent connections used until it finds a stable number. 
 
-# Usage
+Usage
+=====
 Usage: maxrps.py [options] url
 
 Options:
